@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDC - Portolio</title>
+    <script
+      src="https://kit.fontawesome.com/a80b99d7f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navhero">
+      <div class="navhero-menu">
+        <div class="logo">
+          <div class="circle"></div>
+          <h1>CDG</h1>
+        </div>
+        <i class="fas fa-bars logo-menu"></i>
+        <nav class="navhero-menu_nav">
+          <ul class="navhero-menu_list">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#quien-soy">Quien soy</a></li>
+            <li><a href="#escribime">Escribime</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navhero-imagen">
+        <h1>Bienvenidxs a mi site</h1>
+        <img src="./res/gon.png" alt="" />
+      </div>
+    </header>
+    <section id="quien-soy" class="quien-soy seccion">
+      <h2 class="quien-soy_subtitle">Soy Gon</h2>
+
+      <p class="quien-soy_parrafo">
+        Me llamo Gonzalo Cabrera, tengo 28 años. Resido en San Luis, Argentina.
+        Me encuentro realizando la carrera de desarrolo web fullstack en:
+        <a href="apx.school">apx-school</a>.<br />
+        El objetivo al cual apunto es poder insertarme en el mundo laboral del
+        ambito IT
+      </p>
+      <img class="quien-soy_imagen" src="./res/cv.svg" alt="" />
+    </section>
+    <section id="servicios" class="servicios" class="seccion">
+      <div class="subtitle-subrayado">
+        <h3>Mis servicios</h3>
+        <div class="subrayado-servicios"></div>
+      </div>
+      <div class="componentes">
+        <div class="componente-servicio">
+          <img class="servicios-imagen" src="./res/diseno-web.svg" alt="" />
+          <h4>Diseño Web</h4>
+          <p>
+            Consiste en planificación, diseño, implementación y mantenimiento de
+            sitios web, entre estas actividades se encuentra incluida la
+            experiencia de usuario (UX) y la creacion de interfaces de usuario
+            (UI)
+          </p>
+        </div>
+        <div class="componente-servicio">
+          <img class="servicios-imagen" src="./res/mantenimiento.svg" alt="" />
+          <h4>Mantenimiento</h4>
+          <p>
+            Implica la correccion de errores, mejora de rendimiento,
+            optimizacion de los procesos que se encuentran ya implementados.
+          </p>
+        </div>
+        <div class="componente-servicio">
+          <img class="servicios-imagen" src="./res/desarrollo.svg" alt="" />
+          <h4>Desarrollo Web</h4>
+          <p>
+            Creación de sitios web haciendo uso de tecnologias de software del
+            lado del servidor y del cliente, que involucran una combinación de
+            procesos de base de datos a fin de realizar con las tareas deseadas.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="escribime" class="contacto">
+      <h3>Escribime</h3>
+      <div class="contenedor-form">
+        <p>
+          Si deseas contactarte conmigo para pedir presupuesto o realizar alguna
+          consulta sobre los servicios. Completá este formulario planteando lo
+          que necesitas saber y a la brevedad te estaré escribiendo.
+        </p>
+        <form class="formulario" action="">
+          <label class="labels" for="">Nombre</label>
+          <input class="input-nombre-email input" type="text" />
+
+          <label class="labels" for="">Email</label>
+          <input class="input-nombre-email input" type="email" />
+
+          <label class="labels" for="">Mensaje</label>
+          <textarea class="input-mensaje input"></textarea>
+
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="logo">
+        <h1>GDC</h1>
+        <span>© Gon 2021</span>
+      </div>
+
+      <div class="redes">
+        <i class="fab fa-instagram"
+          ><a href="https://www.instagram.com/gonnndc/"> Instagram</a></i
+        >
+        <i class="fab fa-linkedin"
+          ><a href="https://www.linkedin.com/"> Linkedin</a></i
+        >
+        <i class="fab fa-github"
+          ><a href="https://github.com/gonnndc"> GitHub</a></i
+        >
+      </div>
+    </footer>
+    <div class="home"></div>
+  </body>
+</html>

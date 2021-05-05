@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+/* 
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.navhero-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 25px;
+  background-color: #fafafa;
+  z-index: 2;
+  width: 100%;
+}
+
+.navhero .navhero-menu .logo {
+  letter-spacing: -6px;
+  font-size: 17px;
+  transform: rotate(90deg);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  right: 2px;
+  top: 3.5px;
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+  background: rgb(248, 206, 151);
+}
+
+.navhero-menu .logo-menu {
+  font-size: 30px;
+}
+
+.navhero-menu_nav {
+  display: none;
+}
+
+.navhero-imagen {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(92, 144, 151, 0.8);
+}
+
+.navhero-imagen h1 {
+  font-size: 55px;
+  text-align: center;
+  color: rgb(248, 206, 151);
+  position: relative;
+  top: 25%;
+}
+
+.navhero-imagen img {
+  width: 80%;
+  position: relative;
+  z-index: -1;
+}
+
+.quien-soy {
+  background-color: black;
+  width: 100%;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.quien-soy_subtitle {
+  color: rgb(248, 206, 151);
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.subrayado-quiensoy {
+  background-color: rgba(92, 144, 151);
+  width: 110px;
+  height: 10px;
+  position: relative;
+  bottom: 14px;
+}
+
+.quien-soy_parrafo {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fafafa;
+  max-width: 600px;
+}
+.quien-soy_parrafo a {
+  text-decoration: none;
+  color: rgb(143, 252, 241);
+}
+
+.quien-soy_imagen {
+  width: 80px;
+  height: 80px;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1375px;
+  padding: 66px 52px;
+  font-size: 32px;
+}
+
+.subrayado-servicios {
+  background-color: rgb(248, 193, 121);
+  width: 160px;
+  height: 10px;
+  position: relative;
+  bottom: 55px;
+  z-index: -1;
+}
+
+.servicios h3 {
+  margin: 40px 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 35px;
+}
+
+.componentes {
+  display: flex;
+  height: 100%;
+  max-width: 1000px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 32px;
+}
+
+.componentes .componente-servicio {
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.componentes .componente-servicio h4 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.componentes .componente-servicio .servicios-imagen {
+  width: 138px;
+  height: 128px;
+}
+
+.componentes .componente-servicio p {
+  text-align: center;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+
+.contacto {
+  background-color: #2c2c2c;
+  color: #fafafa;
+  padding: 50px 20px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgb(248, 206, 151);
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.contenedor-form {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+
+.formulario {
+  height: 70%;
+  width: 100%;
+  min-width: 300px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-mensaje {
+  height: 30%;
+}
+
+.labels {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background: #c4c4c4;
+  border-style: none;
+}
+
+.input-nombre-email {
+  height: 45px;
+}
+
+.btn {
+  background: rgb(143, 252, 241);
+  height: 45px;
+  font-size: 16px;
+  border-style: none;
+  font-weight: bold;
+}
+
+.footer {
+  height: 500px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer .redes {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.footer .redes a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+@media (min-width: 600px) {
+  .navhero-menu {
+    position: fixed;
+    box-shadow: 1px 1px 10px 3px #2c2c2c;
+  }
+
+  .navhero-imagen {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: rgb(92, 144, 151);
+    opacity: 0.5;
+  }
+
+  .navhero-imagen img {
+    max-width: 600px;
+  }
+
+  .navhero-imagen h1 {
+    display: flex;
+    font-size: 70px;
+    align-items: center;
+    position: static;
+    margin-right: 20%;
+  }
+
+  .logo-menu {
+    display: none;
+  }
+
+  .navhero-menu_nav {
+    display: flex;
+  }
+
+  .navhero-menu_list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 300px;
+  }
+
+  .navhero-menu_list a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+
+  .navhero-menu_list li :hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(248, 193, 121);
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 25px;
+  }
+}
+
+@media (min-width: 750px) {
+  .servicios {
+    height: auto;
+  }
+  .componentes {
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .componente-servicio {
+    width: 30%;
+  }
+
+  .contacto {
+    height: auto;
+  }
+
+  .contacto h2 {
+    margin-bottom: 50px;
+  }
+
+  .contacto p {
+    width: 30%;
+    margin: auto 0;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .contenedor-form {
+    display: flex;
+    height: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 0;
+  }
+
+  .formulario {
+    justify-content: center;
+  }
+}
