@@ -77,6 +77,15 @@ font-family: 'PT Sans Narrow', sans-serif; */
   padding: 0 25px;
 }
 
+.contenedor-quiensoy-img {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .quien-soy_subtitle {
   color: rgb(248, 206, 151);
   font-weight: bold;
@@ -85,29 +94,23 @@ font-family: 'PT Sans Narrow', sans-serif; */
   text-align: center;
 }
 
-.subrayado-quiensoy {
-  background-color: rgba(92, 144, 151);
-  width: 110px;
-  height: 10px;
-  position: relative;
-  bottom: 14px;
-}
-
 .quien-soy_parrafo {
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #fafafa;
   max-width: 600px;
+  margin-bottom: 50px;
 }
+
 .quien-soy_parrafo a {
   text-decoration: none;
   color: rgb(143, 252, 241);
 }
 
 .quien-soy_imagen {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .servicios {
@@ -115,7 +118,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
   flex-direction: column;
   align-items: center;
   height: 1375px;
-  padding: 66px 52px;
+  padding: 66px 25px;
   font-size: 32px;
 }
 
@@ -137,6 +140,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .componentes {
   display: flex;
   height: 100%;
+  width: 100%;
   max-width: 1000px;
   flex-direction: column;
   justify-content: space-evenly;
@@ -172,7 +176,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .contacto {
   background-color: #2c2c2c;
   color: #fafafa;
-  padding: 50px 20px;
+  padding: 50px 25px;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -190,15 +194,15 @@ font-family: 'PT Sans Narrow', sans-serif; */
   display: flex;
   height: 80%;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 16px;
+  max-width: 1000px;
 }
 
 .formulario {
   height: 70%;
   width: 100%;
-  min-width: 300px;
   max-width: 450px;
   display: flex;
   flex-direction: column;
@@ -237,7 +241,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
 .footer {
   height: 500px;
-  padding: 0 16px;
+  padding: 0 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -318,6 +322,12 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media (min-width: 750px) {
+  .contenedor-quiensoy-img {
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+  }
+
   .servicios {
     height: auto;
   }
@@ -350,7 +360,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     display: flex;
     height: 80%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: auto 0;
   }
