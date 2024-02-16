@@ -1,5 +1,5 @@
-# apx dwf desafio-m3
-https://zapaiamarce.github.io/desafio-m3 
+# Nivel 2 - Desafío maquetado
+https://apx-school.github.io/sd-l2-maquetado 
 
-💡 su url puede tener un formato distinta a esta 
+💡 Tu url puede tener un formato distinto 
 pero tiene que ser la URL de la GitHub Page.
